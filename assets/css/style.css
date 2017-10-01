@@ -1,0 +1,135 @@
+
+
+.navbar-inverse {
+    background-color: #366389;
+    border-color: #080808;
+
+}
+
+.img-thumbnail {
+    /*display: inline-block;*/
+    max-width: 50%;
+/*}
+.container1{
+    float:right;
+    }*/
+
+    .cat{
+        padding-right: 10px;
+        margin-left: 2px;
+        float:left;
+        border:solid, red;
+    }
+    body{
+       background-color: grey;
+       padding-bottom: 10px;
+       max-width: 1028px;
+   }
+   #navbar{
+       text-align: center;
+       height:25px;
+   }
+   .center {
+    margin: auto;
+    width: 1028px;
+    border: 3px solid green;
+    padding: 10px;
+}
+.container{
+	margin: auto;
+    size:auto/*width: 960px;*/
+    border: 3px solid green;
+    padding: 10px;
+
+}
+footer{
+	margin: auto;
+    width: 1000px;
+}
+html{
+  margin: auto;
+  /*width: 1000px;*/
+  border: 3px solid green;
+
+}
+
+#connect{
+	background-color: white;
+}
+.wrapper{
+	background-color:pink;
+	/*float:right;*/
+}
+#aboutme{
+	background: red;
+	/*display: inline-block;*/
+	float:top;
+}
+.navbar{
+
+  width:100%;
+  display:inline-block;
+  float:none;
+}
+/*.pull- {
+    float: left!important;
+    display:inline-flex;*/
+}
+/*p:nth-child(1,2,3) {
+    background: red;
+    float:right;*/
+}
+h2{
+    margin-top: 15px;
+    margin-bottom: -47px;
+}
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: inherit;
+    height: auto;
+    background-color: #eee;
+}
+p{
+    vertical-align: flex;
+   
+}
+@media screen and (min-width: 759px) {
+    p {
+        color: red;
+    }
+    .jumbotron{
+        max-height: 50px;
+    }
+    .navbar{
+
+       width:100%;
+       /*display:inline-block;*/
+       float:none;
+       max-height: 25;
+   }
+   h2{
+    max-height:47px;
+    margin-top: :5px;
+    
+}
+}
+.jumbotron {
+  color: #2c3e50;
+  background: #ecf0f1;
+
+}
+.navbar-inverse {
+  background: #2c3e50;
+  color: white;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+  color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+} 
+.connect{
+    float:right;
+}
